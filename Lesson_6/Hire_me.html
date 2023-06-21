@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="Hire-me.png">
+    <title>Hire Me</title>
+</head>
+
+<body>
+    <br>
+    <h1>Hire Me</h1>
+    <table border="1" bgcolor="palegreen">
+        <caption style="text-align: left;">
+            <b>Contact information</b><br><br>
+        </caption>
+        <colgroup>
+            <col span="1" style="background-color:#D6EEEE">
+            <col span="2" style="background-color: #e7e7e7;">
+        </colgroup>
+        <tr>
+            <th align="left">Phone</th>
+            <td align="center">+380968130107</td>
+        </tr>
+        <tr>
+            <th>Address</td>
+                <td>Stryi, Lviv region, Ukraine</td>
+        </tr>
+    </table>
+
+    <br>
+    <form action="/" name="contact-form" autocomplete="on">
+        <fieldset>
+            <legend>Contact Form</legend>
+            <label for="email">E-mail<font color="red">*</font>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="email" name="email" placeholder="e-mail" required><br>
+            <br>
+            <label for="contact-form">Description:</label>
+            <textarea id="contact-form" rows="5" cols="35" placeholder="Enter text here..."></textarea>
+            <br>
+            <br>
+            <label>Work type:</label>&nbsp;&nbsp;
+            <select name="Work-type">
+                <option value="Remote">Remote</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="On-site">On-site</option>
+                <option value="One-time project">One-time project</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" name="Hire-me" value="Hire-me">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
